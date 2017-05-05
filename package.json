@@ -1,0 +1,30 @@
+{
+  "name": "filesizeapi",
+  "version": "1.0.0",
+  "description": "api to send back the size of a file posted",
+  "main": "index.js",
+  "engines": {
+    "node": "^4.5.0"
+  },
+  "scripts": {
+    "test": "test",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tarwaterk/filesizeAPI.git"
+  },
+  "author": "Kevin Tarwater",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tarwaterk/filesizeAPI/issues"
+  },
+  "homepage": "https://github.com/tarwaterk/filesizeAPI#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "multer": "^1.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
